@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Leo Style</h1>
+    <h1>Leo Style 1</h1>
 </body>
 </html>
