@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Leo Style 1</h1>
-</body>
-</html>
+<?php
+require_once __DIR__ . '/config/database.php';
+
+$db = new Database();
+$conn = $db->getConnection();
+
+if ($conn) {
+    echo "✅ Conexión exitosa a la base de datos.";
+} else {
+    echo "❌ No se pudo conectar a la base de datos.";
+}
